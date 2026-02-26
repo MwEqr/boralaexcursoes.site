@@ -219,6 +219,17 @@ body.loaded #intro-loader {
     color: var(--text-color);
 }
 
+.site-logo-nav {
+    max-height: 40px;
+    width: auto;
+}
+
+.site-logo-intro {
+    max-width: 250px;
+    max-height: 120px;
+    animation: bounce 1.5s infinite alternate;
+}
+
 .logo-icon {
     color: var(--primary);
 }
