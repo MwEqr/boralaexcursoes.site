@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bora Lá Excursões - Sua Melhor Experiência em Viagens!</title>
+    <meta name="description"
+        content="Garanta sua vaga nas melhores excursões saindo de Joinville/SC. Bora Lá Excursões: Jardim Botânico, Colheita do Pêssego e Uva, Festa Bom Jesus e muito mais!">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="light-theme">
+
+    <!-- Vinheta de Abertura -->
+    <div id="intro-loader">
+        <div class="intro-content">
+            <div class="bus-icon">
+                <i class="fa-solid fa-bus"></i>
+                <div class="sun-icon"><i class="fa-solid fa-sun"></i></div>
+            </div>
+            <h1 class="intro-title">BORA LÁ<br>EXCURSÕES</h1>
+            <div class="loading-bar"></div>
+        </div>
+    </div>
+
+    <!-- Navegação -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fa-solid fa-bus logo-icon"></i>
+                <span>Bora Lá</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#excursoes">Excursões</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Alternar Tema">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <a href="#contato" class="btn-primary-sm">Fale Conosco</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="inicio" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <span class="badge">Saindo de Joinville/SC</span>
+            <h1 class="hero-title">Sua Melhor <span>Experiência</span> em Viagens!</h1>
+            <p class="hero-subtitle">Levando você aos melhores destinos com conforto, segurança e muita diversão para
+                toda a família.</p>
+            <div class="hero-buttons">
+                <a href="#excursoes" class="btn-primary">Ver Excursões</a>
+                <a href="#contato" class="btn-secondary">Garantir Vaga <i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat"><i class="fa-solid fa-shield-halved"></i> Viagens Seguras</div>
+                <div class="stat"><i class="fa-solid fa-bus"></i> Ônibus Confortável</div>
+                <div class="stat"><i class="fa-solid fa-users"></i> Ambiente Familiar</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Excursões Section -->
+    <section id="excursoes" class="tours">
+        <div class="section-header">
+            <h2 class="section-title">Nossos <span>Destinos</span></h2>
+            <p class="section-subtitle">Confira as próximas excursões e garanta já o seu lugar!</p>
+        </div>
+
+        <div class="tour-grid">
+            <!-- Tour 1 -->
+            <div class="tour-card">
+                <div class="tour-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1549480017-d774048421b5?q=80&w=800&auto=format&fit=crop');">
+                    <div class="date-badge">
+                        <span class="day">20</span>
+                        <span class="month">Jun</span>
+                    </div>
+                </div>
+                <div class="tour-info">
+                    <h3 class="tour-name">Jardim Botânico + Zoológico</h3>
+                    <p class="tour-location"><i class="fa-solid fa-location-dot"></i> Estância Engenho Velho</p>
+                    <ul class="tour-features">
+                        <li><i class="fa-solid fa-paw"></i> Contato com Animais</li>
+                        <li><i class="fa-solid fa-mug-hot"></i> Café Colonial e Almoço</li>
+                        <li><i class="fa-solid fa-camera"></i> Paisagens Rurais</li>
+                    </ul>
+                    <div class="tour-footer">
+                        <div class="tour-price">
+                            <span class="label">Por apenas:</span>
+                            <span class="value">R$ 260,00</span>
+                        </div>
+                        <a href="https://wa.me/5547984578804?text=Ol%C3%A1%21%20Gostaria%20de%20reservar%20minha%20vaga%20para%20o%20Jardim%20Bot%C3%A2nico%20e%20Zool%C3%B3gico%20dia%2020%20de%20Junho."
+                            class="btn-book" target="_blank">Reservar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tour 2 -->
+            <div class="tour-card">
+                <div class="tour-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1517457210514-6ce5662f5f14?q=80&w=800&auto=format&fit=crop');">
+                    <div class="date-badge">
+                        <span class="day">02</span>
+                        <span class="month">Ago</span>
+                        <span class="year">2026</span>
+                    </div>
+                </div>
+                <div class="tour-info">
+                    <h3 class="tour-name">Festa do Senhor Bom Jesus</h3>
+                    <p class="tour-location"><i class="fa-solid fa-location-dot"></i> Luiz Alves - SC</p>
+                    <ul class="tour-features">
+                        <li><i class="fa-solid fa-music"></i> Baile na parte da Tarde</li>
+                        <li><i class="fa-solid fa-drumstick-bite"></i> Comidas Típicas</li>
+                        <li><i class="fa-solid fa-dice"></i> Rodadas de Bingo</li>
+                    </ul>
+                    <div class="tour-footer">
+                        <div class="tour-price">
+                            <span class="label">Valor:</span>
+                            <span class="value">R$ 90,00</span>
+                        </div>
+                        <a href="https://wa.me/5547984553162?text=Ol%C3%A1%21%20Gostaria%20de%20reservar%20minha%20vaga%20para%20a%20Festa%20Bom%20Jesus%20em%20Luiz%20Alves."
+                            class="btn-book" target="_blank">Reservar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tour 3 -->
+            <div class="tour-card">
+                <div class="tour-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1628189870197-e816a7f92021?q=80&w=800&auto=format&fit=crop');">
+                    <div class="date-badge">
+                        <span class="day">28</span>
+                        <span class="month">Nov</span>
+                        <span class="year">2026</span>
+                    </div>
+                </div>
+                <div class="tour-info">
+                    <h3 class="tour-name">Colheita do Pêssego</h3>
+                    <p class="tour-location"><i class="fa-solid fa-location-dot"></i> Caminho dos Anjos</p>
+                    <ul class="tour-features">
+                        <li><i class="fa-solid fa-truck-pickup"></i> Passeio de Caminhão do Exército</li>
+                        <li><i class="fa-solid fa-utensils"></i> Almoço e Café na Casa Di Dai</li>
+                        <li><i class="fa-solid fa-leaf"></i> Colheita do Pêssego (Opcional)</li>
+                    </ul>
+                    <div class="tour-footer">
+                        <div class="tour-price">
+                            <span class="label">A partir de:</span>
+                            <span class="value">R$ 350,00</span>
+                        </div>
+                        <a href="https://wa.me/5547984578804?text=Ol%C3%A1%21%20Gostaria%20de%20reservar%20minha%20vaga%20para%20a%20Colheita%20do%20P%C3%AAssego%20dia%2028%2F11%2F2026."
+                            class="btn-book" target="_blank">Reservar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tour 4 -->
+            <div class="tour-card">
+                <div class="tour-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1596547609652-9cb5d8ea1c1e?q=80&w=800&auto=format&fit=crop');">
+                    <div class="date-badge">
+                        <span class="day">16</span>
+                        <span class="month">Jan</span>
+                        <span class="year">2027</span>
+                    </div>
+                </div>
+                <div class="tour-info">
+                    <h3 class="tour-name">Colheita da Uva</h3>
+                    <p class="tour-location"><i class="fa-solid fa-location-dot"></i> Caminho dos Anjos</p>
+                    <ul class="tour-features">
+                        <li><i class="fa-solid fa-grape"></i> Colheita da Uva (Opcional)</li>
+                        <li><i class="fa-solid fa-utensils"></i> Almoço e Café na Casa Di Dai</li>
+                        <li><i class="fa-solid fa-truck-monster"></i> Caminhão do Exército (Jibata)</li>
+                    </ul>
+                    <div class="tour-footer">
+                        <div class="tour-price">
+                            <span class="label">A partir de:</span>
+                            <span class="value">R$ 350,00</span>
+                        </div>
+                        <a href="https://wa.me/5547984553162?text=Ol%C3%A1%21%20Gostaria%20de%20reservar%20minha%20vaga%20para%20a%20Colheita%20da%20Uva%20dia%2016%2F01%2F2027."
+                            class="btn-book" target="_blank">Reservar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section id="sobre" class="info-section">
+        <div class="info-content">
+            <div class="info-text">
+                <h2>Bora Lá Excursões</h2>
+                <p>Nós proporcionamos momentos inesquecíveis para você e sua família. Nossos passeios incluem ônibus
+                    confortável (ida e volta) saindo do bairro Aventureiro em Joinville/SC, e roteiros repletos de
+                    diversão e paisagens lindas.</p>
+                <div class="features-list">
+                    <div class="feat-item">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Crianças de 0 a 5 anos não pagam (no colo).</span>
+                    </div>
+                    <div class="feat-item">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Parcelamento prático no PIX ou Cartão.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="info-img">
+                <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=800&auto=format&fit=crop"
+                    alt="Viagem Família">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="contact-section">
+        <div class="contact-card">
+            <h2>Pronto para viajar conosco?</h2>
+            <p>Entre em contato para tirar dúvidas ou garantir a sua vaga em nossas excursões.</p>
+            <div class="contact-links">
+                <a href="https://wa.me/5547984578804" class="contact-btn" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i> Gilson: (47) 98457-8804
+                </a>
+                <a href="https://wa.me/5547984553162" class="contact-btn secondary" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i> Glória: (47) 98455-3162
+                </a>
+            </div>
+            <div class="social-links">
+                <a href="https://www.instagram.com/bora_la_excursoes" target="_blank"><i
+                        class="fa-brands fa-instagram"></i> Siga no Instagram</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Bora Lá Excursões. Todos os direitos reservados. Saindo do Aventureiro - Joinville/SC.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
