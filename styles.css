@@ -222,12 +222,16 @@ body.loaded #intro-loader {
 .site-logo-nav {
     max-height: 40px;
     width: auto;
+    background: #FFFFFF;
+    padding: 4px 8px;
+    border-radius: 8px;
 }
 
 .site-logo-intro {
     max-width: 250px;
     max-height: 120px;
     animation: bounce 1.5s infinite alternate;
+    mix-blend-mode: multiply;
 }
 
 .logo-icon {
